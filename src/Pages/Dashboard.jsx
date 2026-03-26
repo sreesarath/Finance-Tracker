@@ -25,6 +25,7 @@ import { toast } from "react-toastify";
 
     // --- Fetch user from sessionStorage ---
     useEffect(() => {
+        console.log("Dashboard Loaded");
         const storedUser = sessionStorage.getItem("user");
         setUser(storedUser ? JSON.parse(storedUser) : null);
     }, []);
