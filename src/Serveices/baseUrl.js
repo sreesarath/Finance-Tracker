@@ -1,4 +1,4 @@
-const  base_url=import.meta.env.VITE_BASE_URL
+const  base_url="https://finance-server-azka.onrender.com"
 
 console.log("BASE URL:", base_url);
 
