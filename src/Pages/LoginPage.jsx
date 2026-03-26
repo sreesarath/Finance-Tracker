@@ -36,7 +36,7 @@ const LoginPage = () => {
             toast.success("Login successfull")
              console.log(result.data)
             navigate('/dashboard')
-            window.location.reload()
+            
            }
            else{
             toast.error("Login filed!!")

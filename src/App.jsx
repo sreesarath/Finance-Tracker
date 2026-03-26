@@ -30,7 +30,7 @@ function App() {
     <>
      <Routes>
       <Route path={'/'} element={<LandingPage/>}></Route>
-      <Route path={'/*'} element={<PageNotFound/>}></Route>
+      
       <Route path='/header' element={<Navbar/>}></Route>
       <Route path='/terms' element={<Terms/>}></Route>
       <Route path='/goal' element={<SetGoal/>}></Route>
@@ -43,7 +43,7 @@ function App() {
       <Route path='/dashboard' element={<ProtectedRoute><Dashboard/></ProtectedRoute>}></Route>
       
       
-
+     <Route path="*" element={<PageNotFound/>}></Route>
 
      </Routes>
      <ToastContainer/>
