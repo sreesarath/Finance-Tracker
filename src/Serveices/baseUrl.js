@@ -1,3 +1,3 @@
-const  base_url="http://localhost:5000"
+const  base_url=import.meta.env.VITE_BASE_URL
 
 export default base_url
